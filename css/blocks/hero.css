@@ -140,7 +140,7 @@
 
 .about {
   .hero {
-    background: url(../images/about/hero-bg.jpg) no-repeat 100% / cover;
+    background: url(../../images/about/hero-bg.jpg) no-repeat 100% / cover;
     text-align: left;
   }
   .hero-wrapper {
