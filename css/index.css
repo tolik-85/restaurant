@@ -10,10 +10,14 @@
 @import url(./icomoon.css);
 @import url(./blocks/hero.css);
 
+@import url(./blocks/categories.css);
+@import url(./blocks/reservation.css);
 @import url(./blocks/posts.css);
+@import url(./blocks/recent-post.css);
 @import url(./blocks/blog-item.css);
 @import url(./blocks/testimonials.css);
 @import url(./swiper.css);
+@import url(./blocks/menu-list.css);
 @import url(./blocks/menu.css);
 @import url(./blocks/menu-item.css);
 @import url(./blocks/chief.css);
