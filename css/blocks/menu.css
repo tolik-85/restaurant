@@ -1,5 +1,5 @@
 .menu {
-  background: url(/images/home-page/menu-sec-bg.png) no-repeat right top;
+  background: url(../../images/home-page/menu-sec-bg.png) no-repeat right top;
   padding: 7.33rem 0 9.08rem;
 }
 .menu-title {
@@ -55,7 +55,7 @@
   }
 }
 .menu--pastries {
-  background: url(/icons/pastries-bg.svg) center top / 20% no-repeat;
+  background: url(./icons/pastries-bg.svg) center top / 20% no-repeat;
 }
 
 @media (max-width: 1000px) {
