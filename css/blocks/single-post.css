@@ -67,10 +67,10 @@
   color: var(--white);
 }
 .post-guide--prev {
-  background: url(/images/single-post/prev-post.jpg) center 100% / cover;
+  background: url(../images/single-post/prev-post.jpg) center 100% / cover;
 }
 .post-guide--next {
-  background: url(/images/single-post/next-post.jpg) center 100% / cover;
+  background: url(../images/single-post/next-post.jpg) center 100% / cover;
 }
 .post-guide-arrow {
   font-size: 0.83rem;
@@ -80,11 +80,11 @@
 
 .post-guide-arrow--prev {
   padding-left: 73px;
-  background: url(/icons/Icon_arrow-left-white.svg) center left no-repeat;
+  background: url(../icons/Icon_arrow-left-white.svg) center left no-repeat;
 }
 .post-guide-arrow--next {
   padding-right: 73px;
-  background: url(/icons/Icon_arrow-right-white.svg) center right no-repeat;
+  background: url(../icons/Icon_arrow-right-white.svg) center right no-repeat;
 }
 
 .post-nav-guide-title {

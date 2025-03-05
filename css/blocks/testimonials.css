@@ -22,7 +22,7 @@
     top: 0;
     right: -160px;
     z-index: -1;
-    background: url(/icons/quotes.svg) center / cover no-repeat;
+    background: url(../../icons/quotes.svg) center / cover no-repeat;
   }
 }
 .testimonials-author {

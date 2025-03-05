@@ -100,13 +100,14 @@
 
 .menu-page {
   .hero {
-    background: url(/images/home-page/hero--menu-bg.jpg) no-repeat 100% / cover;
+    background: url(../images/home-page/hero--menu-bg.jpg) no-repeat 100% /
+      cover;
   }
 }
 
 .contact-page {
   .hero {
-    background: url(/images/get-in-touch/get-in-touch-hero-bg.jpg) no-repeat
+    background: url(../images/get-in-touch/get-in-touch-hero-bg.jpg) no-repeat
       100% / cover;
   }
 
@@ -139,7 +140,7 @@
 
 .about {
   .hero {
-    background: url(/images/about/hero-bg.jpg) no-repeat 100% / cover;
+    background: url(../images/about/hero-bg.jpg) no-repeat 100% / cover;
     text-align: left;
   }
   .hero-wrapper {
@@ -153,7 +154,7 @@
 
 .portfolio-page {
   .hero {
-    background: url(/images/portfolio/hero-bg.jpg) no-repeat 100% / cover;
+    background: url(../images/portfolio/hero-bg.jpg) no-repeat 100% / cover;
     text-align: center;
     overflow: hidden;
   }
@@ -172,7 +173,8 @@
 }
 .single-portfolio {
   .hero {
-    background: url(/images/single-portfolio/hero-bg.jpg) no-repeat 100% / cover;
+    background: url(../images/single-portfolio/hero-bg.jpg) no-repeat 100% /
+      cover;
     text-align: center;
     overflow: hidden;
   }
@@ -189,7 +191,7 @@
 }
 .blog-page {
   .hero {
-    background: url(/images/blog-page/hero-bg.jpg) no-repeat 100% / cover;
+    background: url(../images/blog-page/hero-bg.jpg) no-repeat 100% / cover;
     text-align: center;
     overflow: hidden;
   }
@@ -207,7 +209,7 @@
 }
 .single-post {
   .hero {
-    background: url(/images/single-post/hero-bg.jpg) no-repeat 100% / cover;
+    background: url(../images/single-post/hero-bg.jpg) no-repeat 100% / cover;
     text-align: left;
     overflow: hidden;
   }
@@ -224,7 +226,7 @@
 }
 .single {
   .hero {
-    background: url(/images/single-post-no-sb/hero.jpg) no-repeat 100% / cover;
+    background: url(../images/single-post-no-sb/hero.jpg) no-repeat 100% / cover;
     text-align: center;
     overflow: hidden;
   }

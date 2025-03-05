@@ -1,5 +1,5 @@
 .menu {
-  background: url(../images/home-page/menu-sec-bg.png) no-repeat right top;
+  background: url(../../images/home-page/menu-sec-bg.png) no-repeat right top;
   padding: 7.33rem 0 9.08rem;
 }
 .menu-title {
@@ -36,7 +36,8 @@
     &::after {
       content: '';
       position: absolute;
-      background: var(--white) url(/icons/Blueberry-starters-bg.svg) no-repeat;
+      background: var(--white) url(../../icons/Blueberry-starters-bg.svg)
+        no-repeat;
       top: -373px;
       right: 0;
       width: 28%;

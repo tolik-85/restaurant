@@ -27,7 +27,7 @@
     left: -99px;
     width: 365px;
     height: 372px;
-    background-image: url(/icons/Leaf1-chief.svg);
+    background-image: url(../../icons/Leaf1-chief.svg);
     z-index: 1;
   }
   &::after {
@@ -35,7 +35,7 @@
     right: 15px;
     width: 27%;
     aspect-ratio: 1/1;
-    background-image: url(/icons/Leaf2-chief.svg);
+    background-image: url(../../icons/Leaf2-chief.svg);
   }
 }
 

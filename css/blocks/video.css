@@ -1,5 +1,5 @@
 .video {
-  background: url(/images/story/video-bg.jpg) center 100% / cover no-repeat;
+  background: url(../images/story/video-bg.jpg) center 100% / cover no-repeat;
   padding: 9.9rem 0 7.8rem;
   color: var(--white);
   text-align: center;
@@ -16,7 +16,7 @@
   display: block;
   width: 142px;
   height: 142px;
-  background: url(/icons/Play.svg) center 100% / cover no-repeat;
+  background: url(../icons/Play.svg) center 100% / cover no-repeat;
   margin: 0 auto;
 }
 .video-play-img {

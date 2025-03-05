@@ -1,5 +1,5 @@
 .modal {
-  background: url(/images/modal-menu/modal-menu.jpg) no-repeat 100% / cover;
+  background: url(../../images/modal-menu/modal-menu.jpg) no-repeat 100% / cover;
   color: var(--white);
   padding: 0 6.5vw 0 14vw;
   position: fixed;

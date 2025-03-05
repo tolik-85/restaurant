@@ -26,7 +26,7 @@
   margin-bottom: 4.4rem;
 }
 .post-page-quote-wrapper {
-  background: url(/images/single-post-no-sb/quote-bg.jpg) center center
+  background: url(../images/single-post-no-sb/quote-bg.jpg) center center
     no-repeat;
   padding: 7.2rem 0 8.4rem;
   margin-bottom: 4.4rem;
@@ -39,7 +39,7 @@
       right: 0;
       top: -22px;
       z-index: 3;
-      background: url(/icons/quotes2.svg) no-repeat;
+      background: url(../icons/quotes2.svg) no-repeat;
     }
   }
 }
