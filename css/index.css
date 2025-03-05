@@ -10,6 +10,8 @@
 @import url(./icomoon.css);
 @import url(./blocks/hero.css);
 
+@import url(./blocks/blog-item.css);
+@import url(./blocks/testimonials.css);
 @import url(./swiper.css);
 @import url(./blocks/menu.css);
 @import url(./blocks/menu-item.css);
