@@ -1,0 +1,77 @@
+.modal {
+  background: url(/images/modal-menu/modal-menu.jpg) no-repeat 100% / cover;
+  color: var(--white);
+  padding: 0 6.5vw 0 14vw;
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  right: -100%;
+  z-index: 999;
+  transition: 0.3s;
+  &.active {
+    right: 0;
+  }
+}
+
+.body--overflow-hidden {
+  overflow: hidden;
+}
+
+.modal-wrapper {
+  gap: 3rem;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.modal-menu {
+  margin-bottom: -15px;
+}
+
+.modal-menu-list {
+  font-family: 'Rufina', serif;
+  font-weight: 600;
+  font-size: 2.75rem;
+  text-transform: uppercase;
+  list-style: disc;
+}
+
+.modal-menu-link {
+  color: var(--white);
+}
+
+.modal-menu-item {
+  &::marker {
+    font-size: 45px;
+  }
+}
+
+.modal-nav-close {
+  position: absolute;
+  top: 25px;
+  left: 8%;
+  width: 30px;
+  height: 30px;
+  padding-top: 14px;
+  cursor: pointer;
+  span {
+    height: 2px;
+    width: 30px;
+    background: var(--white);
+    display: block;
+  }
+  :nth-child(1) {
+    transform: rotate(45deg) translateY(1px);
+    transform-origin: center;
+  }
+  :nth-child(2) {
+    transform: rotate(-45deg) translateY(-2px);
+    /* transform: translateY(2px); */
+    transform-origin: center;
+  }
+}

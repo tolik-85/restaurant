@@ -1,0 +1,15 @@
+.colums-toggle {
+  display: flex;
+  img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: block;
+  }
+  .one-column {
+    width: 30px;
+    height: 30px;
+    margin-top: -2px;
+  }
+}

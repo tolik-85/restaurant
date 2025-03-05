@@ -1,0 +1,34 @@
+/* .swiper-button-next {
+  &::after {
+    content: '';
+    position: absolute;
+    font-size: 1rem;
+    font-family: 'icomoon';
+    background: url(/icons/Icon_arrow-right.svg) no-repeat;
+    height: 44px;
+    width: 50px;
+    left: 0;
+    top: 10px;
+    z-index: 20;
+  }
+}
+.swiper-button-prev {
+  &::after {
+    content: '';
+    font-family: 'icomoon';
+    font-size: 1rem;
+    position: absolute;
+    background: url(/icons/Icon_arrow-left.svg) no-repeat;
+    left: 0;
+    top: 10px;
+    height: 44px;
+    width: 50px;
+    z-index: 20;
+  }
+} */
+.swiper-button-prev,
+.swiper-button-next {
+  &::after {
+    content: none;
+  }
+}

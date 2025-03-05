@@ -1,0 +1,121 @@
+.testimonials {
+  position: relative;
+}
+
+.testimonials-slider {
+  max-width: 1446px;
+}
+
+.testimonials-text {
+  position: relative;
+  max-width: 1250px;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: 'Rufina';
+  color: #000;
+  margin-bottom: 86px;
+  &::after {
+    position: absolute;
+    content: '';
+    width: 11.75rem;
+    height: 9.75rem;
+    top: 0;
+    right: -160px;
+    z-index: -1;
+    background: url(/icons/quotes.svg) center / cover no-repeat;
+  }
+}
+.testimonials-author {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials-author-img {
+  max-width: 170px;
+  aspect-ratio: 1/1;
+  margin-right: 2.5rem;
+  border-radius: 50%;
+}
+
+.testimonials-author-name {
+  font-size: 1.33rem;
+  font-weight: 700;
+  font-family: 'Rufina';
+  margin-bottom: 6px;
+}
+
+.testimonials-author-rank {
+  font-size: 0.75rem;
+}
+
+.testimonials-slider-pagination {
+  position: absolute;
+  /* display: flex; */
+  width: 230px;
+  height: 48px;
+  right: 0;
+  bottom: 30px;
+  z-index: 3;
+}
+
+.testimonials-slider-pagination-num {
+  font-size: 1.33rem;
+  font-weight: 700;
+  font-family: 'Rufina';
+  left: 82px;
+  width: 70px;
+}
+.post {
+  .testimonials-text {
+    font-style: italic;
+    color: var(--light-green);
+    font-size: 1.58rem;
+    max-width: 992px;
+    margin-left: 3.5rem;
+    &::after {
+      right: 0;
+    }
+  }
+  .testimonials-author-name {
+    max-width: 795px;
+  }
+  .testimonials-author-name > span {
+    margin-bottom: 0.5rem;
+  }
+  .testimonials-author-name > span + span {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1480px) {
+  .testimonials-text {
+    &::after {
+      right: 0;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .testimonials-text {
+    font-size: 1.3rem;
+  }
+  .testimonials-slider-pagination {
+    bottom: 140px;
+  }
+  .testimonials-author-img {
+    max-width: 100px;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .post {
+    .testimonials-text {
+      font-size: 1.2rem;
+      margin-left: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+  /*  */
+  .testimonials-author-text {
+    font-size: 0.8rem;
+    line-height: 0.5;
+  }
+}

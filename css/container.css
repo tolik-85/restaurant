@@ -1,0 +1,22 @@
+.container {
+  max-width: 1674px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container--medium {
+  max-width: 1200px;
+}
+
+.container--avarage {
+  max-width: 1360px;
+}
+
+.container--small {
+  max-width: 1560px;
+}
+
+.container--very-small {
+  max-width: 1076px;
+}

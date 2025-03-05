@@ -1,0 +1,56 @@
+.location {
+  padding: 11.33rem 0 7.7rem;
+  background: url(/icons/Orange-contacts-page.svg) center top 152px/446px
+    no-repeat;
+}
+
+.location-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 60px;
+}
+
+.location-img {
+  max-width: 100%;
+}
+
+.location-img--top {
+  margin-bottom: 6rem;
+}
+
+.location-text {
+  font-size: 1.33rem;
+  font-weight: 700;
+  color: var(--dark-green);
+  font-family: 'Rufina';
+}
+
+.location-text--top {
+  max-width: 507px;
+  justify-self: center;
+  span {
+    color: #9caa00;
+  }
+}
+
+.location-text--bottom {
+  max-width: 748px;
+  margin-bottom: 53px;
+}
+
+@media (max-width: 600px) {
+  .location {
+    background: none;
+    padding: 4rem 0 3rem;
+  }
+  .location-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .location-img--top {
+    margin-bottom: 1rem;
+  }
+  .location-text--top {
+    max-width: 100%;
+  }
+}

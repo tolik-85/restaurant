@@ -1,0 +1,25 @@
+.pastries {
+  padding: 187px 0 208px;
+  text-align: center;
+  background: url(/icons/pastries-bg.svg) no-repeat center top;
+}
+
+.pastries-title {
+  margin-bottom: 18px;
+}
+
+.pastries-text {
+  margin-bottom: 129px;
+  color: var(--dark-grey);
+}
+
+.pastries-wrapper {
+  display: flex;
+  gap: 6%;
+}
+
+.pastries-img {
+  width: 49%;
+  /* aspect-ratio: 1 / 1; */
+  object-fit: cover;
+}

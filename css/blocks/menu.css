@@ -1,0 +1,80 @@
+.menu {
+  background: url(/images/home-page/menu-sec-bg.png) no-repeat right top;
+  padding: 7.33rem 0 9.08rem;
+}
+.menu-title {
+  max-width: 532px;
+}
+.menu-subtitle {
+  max-width: 532px;
+  margin-top: 18px;
+  margin-bottom: 6.58rem;
+}
+.menu-page {
+  .menu {
+    padding: 5rem 0 5.8rem;
+    text-align: center;
+  }
+
+  .menu-title {
+    margin-bottom: 18px;
+    max-width: none;
+  }
+
+  .menu-text {
+    margin-bottom: 3.4rem;
+    color: var(--dark-grey);
+    font-family: 'Rufina';
+  }
+
+  .menu-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 6%;
+    row-gap: 40px;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      background: var(--white) url(/icons/Blueberry-starters-bg.svg) no-repeat;
+      top: -373px;
+      right: 0;
+      width: 28%;
+      height: 60%;
+      z-index: -1;
+    }
+  }
+  .menu-img {
+    width: 49%;
+  }
+}
+.menu--mains,
+.menu--pastries {
+  ::after {
+    display: none;
+  }
+}
+.menu--pastries {
+  background: url(/icons/pastries-bg.svg) center top / 20% no-repeat;
+}
+
+@media (max-width: 1000px) {
+  .menu-page {
+    .menu-wrapper {
+      flex-direction: column;
+    }
+    .menu-img {
+      width: 100%;
+      aspect-ratio: 1 / 0.7;
+      object-fit: cover;
+    }
+    .menu + .menu {
+      padding-top: 0;
+    }
+    .menu--mains {
+      .menu-wrapper {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}

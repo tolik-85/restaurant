@@ -1,0 +1,211 @@
+.portfolio {
+  padding: 5rem 0;
+  text-align: center;
+  overflow: hidden;
+}
+/*  */
+.tabs-opener {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: -50px;
+  width: 30px;
+  height: 30px;
+  text-align: right;
+  span {
+    display: inline-block;
+    height: 2px;
+    background: #000;
+    display: block;
+    margin-bottom: 7px;
+    margin-left: auto;
+  }
+  .long {
+    width: 30px;
+  }
+  .medium {
+    width: 25px;
+  }
+  .short {
+    width: 20px;
+  }
+}
+.portfolio-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  font-size: 1.41rem;
+  margin-left: auto;
+}
+
+.portfolio-tab {
+  cursor: pointer;
+  &.active {
+    border-bottom: 2px dashed #000;
+    cursor: default;
+  }
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.portfolio-item-link {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  align-items: end;
+}
+.portfolio-item {
+  position: relative;
+  width: 50%;
+  color: var(--white);
+  height: 990px;
+  text-align: left;
+  padding: 2.6rem 1.75rem 2.6rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: 0.3s;
+  &:hover {
+    width: 100%;
+    &::after {
+      right: 10%;
+    }
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    width: 48px;
+    height: 30px;
+    bottom: 6%;
+    transform: translateY(-25%);
+    right: -100px;
+    background: url(/icons/Icon_arrow-right-white.svg);
+    transition: 0.2s;
+  }
+  .portfolio-item-caption {
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 18px;
+  }
+  &.portfolio-item--1 {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.075) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(/images/portfolio/portfolio-1.jpg) no-repeat 100% / cover;
+  }
+  &.portfolio-item--2 {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.137) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(/images/portfolio/portfolio-2.jpg) no-repeat 100% / cover;
+  }
+  &.portfolio-item--3 {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.137) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(/images/portfolio/portfolio-3.jpg) no-repeat 100% / cover;
+  }
+  &.portfolio-item--4 {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.137) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(/images/portfolio/portfolio-4.jpg) no-repeat 100% / cover;
+  }
+  &.portfolio-item--5 {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.137) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(/images/portfolio/portfolio-5.jpg) no-repeat 100% / cover;
+  }
+  &.portfolio-item--6 {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.137) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+      ),
+      url(/images/portfolio/portfolio-6.jpg) no-repeat 100% / cover;
+  }
+}
+
+.portfolio-item-categories {
+  li {
+    display: inline-block;
+    padding-right: 30px;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      top: 50%;
+      transform: translate(50%, -50%);
+      right: 15px;
+      border-radius: 50%;
+      background: #fff;
+    }
+    &:last-child {
+      &::after {
+        content: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1674px) {
+  .portfolio-item {
+    height: 59vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-list {
+    flex-direction: column;
+  }
+  .portfolio-item {
+    width: 100%;
+  }
+  .portfolio-item {
+    .portfolio-item-caption {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  /*  */
+  .tabs-opener {
+    display: block;
+    cursor: pointer;
+  }
+  .portfolio-tabs {
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 20;
+    background: #ffffff99;
+    max-width: 300px;
+    width: 100%;
+    max-height: 0;
+    transition: 0.3s;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    &.active {
+      display: block;
+      margin-bottom: 0;
+    }
+  }
+}

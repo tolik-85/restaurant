@@ -1,0 +1,14 @@
+.menu-item-price {
+  font-family: 'Rufina';
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  text-align: right;
+  border-bottom: 2px dashed #000;
+}
+.menu-item-title {
+  margin-top: 24px;
+}
+.menu-item-subtitle {
+  margin-top: 24px;
+}

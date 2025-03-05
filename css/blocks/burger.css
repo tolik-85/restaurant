@@ -1,0 +1,15 @@
+.burger {
+  width: 46px;
+  cursor: pointer;
+  z-index: 100;
+
+  span {
+    display: block;
+    height: 2px;
+    background: var(--white);
+    margin-bottom: 14px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

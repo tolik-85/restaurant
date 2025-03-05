@@ -1,0 +1,42 @@
+.btn {
+  font-weight: 700;
+  font-size: 1.33rem;
+  font-family: 'Rufina';
+  padding: 0.83rem 1.91rem;
+  color: var(--white);
+  border: none;
+}
+.btn--transparent {
+  background: transparent;
+  border: 2px solid var(--white);
+}
+.btn--light-green {
+  background: var(--light-green);
+}
+.btn--wide {
+  padding: 0.83rem 3.91rem;
+}
+.btn--dark-green {
+  background: var(--dark-green);
+}
+.btn--white {
+  color: #000;
+  border: 1px solid #000;
+  background: var(--white);
+}
+.btn--potrfolio {
+  display: block;
+  margin: 5.1rem auto 4.58rem auto;
+}
+.btn--middle {
+  padding: 0.29rem 2.16rem;
+}
+/* remove */
+.btn--tag {
+  color: #000;
+  border: 1px solid #000;
+  padding: 0.416rem 0.83rem;
+  font-size: 0.75rem;
+  font-family: 'Lato';
+  font-weight: 400;
+}

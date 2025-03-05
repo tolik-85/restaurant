@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rufina:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Contact-page</title>
+  </head>
+  <body class="contact-page">
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-left">
+            <a href="" class="header-logo">
+              <img
+                src="/icons/header-logo.svg"
+                alt=""
+                class="header-logo-img"
+              />
+            </a>
+            <div class="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="header-right">
+            <a href="tel:+86852346000" class="header-tel">+86 852 346 000</a>
+            <button class="btn btn--transparent">Reservations</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-wrapper">
+            <h1 class="hero-title">Get in Touch</h1>
+            <p class="hero-text">The freshest ingredients for you every day</p>
+
+            <div class="hero-schedule">
+              <div class="hero-schedule-wrapper hero-schedule-wrapper--top">
+                <p class="hero-schedule-caption">Open Time</p>
+                <p class="hero-schedule-text">Sunday - Friday</p>
+              </div>
+              <div class="hero-schedule-wrapper">
+                <p class="hero-schedule-text">
+                  Brunch <br />
+                  11:00–12:00
+                </p>
+                <p class="hero-schedule-text">
+                  Lunch <br />
+                  13:00–17:00
+                </p>
+                <p class="hero-schedule-text">
+                  Dinner <br />
+                  18:00–20:00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="location">
+        <div class="container">
+          <div class="location-wrapper">
+            <img
+              src="/images/get-in-touch/adress-sec.jpg"
+              alt="location"
+              class="location-img location-img--top"
+            />
+            <p class="location-text location-text--top">
+              We can be contacted via email<span> info@foodzero.com</span> or
+              telephone on <span>+86 852 346 000</span>
+            </p>
+            <div class="location-adress">
+              <p class="location-text location-text--bottom">
+                We are located in 1959 Sepulveda Blvd. Culver City, CA, 90230
+              </p>
+              <button class="btn btn--white">View in maps</button>
+            </div>
+            <img
+              src="/images/get-in-touch/adress-sec2.jpg"
+              alt="location"
+              class="location-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="reservation reservation--contacts-page">
+        <div class="container">
+          <h2 class="reservation-title">Make a Reservation</h2>
+          <p class="reservation-text">Get in touch with restaurant</p>
+          <form action="#" class="reservation-form">
+            <div class="reservation-form-inner">
+              <input
+                type="text"
+                name="first-name"
+                class="reservation-input input-first-name"
+                placeholder="First name"
+              />
+              <input
+                type="text"
+                name="last-name"
+                class="reservation-input input-last-name"
+                placeholder="Last name"
+              />
+
+              <input
+                type="email"
+                name="mail"
+                class="reservation-input reservation-input--wide"
+                placeholder="Email"
+              />
+              <input
+                type="tel"
+                name="phone"
+                class="reservation-input reservation-input--wide"
+                placeholder="Phone"
+              />
+              <input type="date" name="date" class="reservation-input" />
+              <select name="time" class="reservation-input">
+                <option value="6:00 pm" selected>6:00 pm</option>
+                <option value="7:00 pm">7:00 pm</option>
+                <option value="8:00 pm">8:00 pm</option>
+                <option value="9:00 pm">9:00 pm</option>
+                <option value="10:00 pm">10:00 pm</option>
+              </select>
+              <select
+                name="persons"
+                class="reservation-input reservation-input--wide"
+              >
+                <option value="2 persons" selected>2 persons</option>
+                <option value="3 persons">3 persons</option>
+                <option value="4 persons">4 persons</option>
+                <option value="5 persons">5 persons</option>
+              </select>
+            </div>
+            <button class="btn btn--wide btn--dark-green">Book Now</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper footer-wrapper--top">
+          <a href="#" class="footer-logo">
+            <img src="/icons/Logo-footer.svg" alt="" />
+          </a>
+          <div class="contacts">
+            <p class="contacts-caption">Contact</p>
+            <a class="contacts-phone" href="tel:+186852346000">
+              +186 852 346 000
+            </a>
+            <a class="contacts-mail" href="mailto:info@foodzero.com"
+              >info@foodzero.com</a
+            >
+            <address class="contacts-adress">
+              1959 Sepulveda Blvd. Culver City, CA, 90230
+            </address>
+          </div>
+          <div class="footer-form-wrapper">
+            <p class="footer-caption">Never Miss a Recipe</p>
+            <form action="#" class="footer-form">
+              <input
+                class="footer-form-input"
+                type="email"
+                name="email"
+                value="Email Address"
+              />
+              <button class="btn btn--light-green" type="submit">
+                Subscribe
+              </button>
+            </form>
+            <span
+              >Join our subscribers and get best recipe delivered each
+              week!</span
+            >
+          </div>
+        </div>
+        <div class="footer-devider"></div>
+        <div class="footer-wrapper footer-wrapper--bottom">
+          <p class="footer-copyright">© 2020 Zero Inc. All rights Reserved</p>
+          <ul class="social">
+            <li class="social-item">
+              <a href="#" class="icon-instagram social-link"></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="icon-twitter social-link"></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="icon-youtube social-link"></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="icon-facebook social-link"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="modal">
+      <div class="modal-nav-close">
+        <span></span>
+        <span></span>
+      </div>
+      <!-- <div class="container"> -->
+      <div class="modal-wrapper">
+        <nav class="modal-menu">
+          <ul class="modal-menu-list">
+            <li class="modal-menu-item">
+              <a href="#" class="modal-menu-link">Home</a>
+            </li>
+            <li class="modal-menu-item">
+              <a href="#" class="modal-menu-link">Menu</a>
+            </li>
+            <li class="modal-menu-item">
+              <a href="#" class="modal-menu-link">Blogs</a>
+            </li>
+            <li class="modal-menu-item">
+              <a href="#" class="modal-menu-link">About</a>
+            </li>
+            <li class="modal-menu-item">
+              <a href="#" class="modal-menu-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="modal-contacts-wrapper">
+          <div class="contacts">
+            <p class="contacts-caption contacts--border-dashed">Contact</p>
+            <a class="contacts-phone" href="tel:+186852346000">
+              +186 852 346 000
+            </a>
+            <a class="contacts-mail" href="mailto:info@foodzero.com"
+              >info@foodzero.com</a
+            >
+            <address class="contacts-adress">
+              1959 Sepulveda Blvd. Culver City, CA, 90230
+            </address>
+          </div>
+          <ul class="social">
+            <li class="social-item">
+              <a href="#" class="icon-instagram social-link"></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="icon-twitter social-link"></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="icon-youtube social-link"></a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="icon-facebook social-link"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="/js/script.js"></script>
+    <script src="/js/script-burger-menu.js"></script>
+  </body>
+</html>

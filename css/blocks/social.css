@@ -1,0 +1,8 @@
+.social {
+  max-width: 224px;
+  display: flex;
+  align-items: center;
+}
+.social-item {
+  margin-right: 18px;
+}

@@ -1,0 +1,46 @@
+.contacts {
+  max-width: 210px;
+  font-size: 0.75rem;
+  margin-bottom: 38px;
+  a {
+    color: var(--white);
+  }
+}
+
+.contacts-caption {
+  font-size: 1.33rem;
+  font-weight: 700;
+  margin-bottom: 55px;
+  font-family: 'Rufina';
+}
+
+.contacts-phone {
+  display: block;
+}
+
+.contacts-mail {
+  margin-bottom: 26px;
+}
+
+.contacts-adress {
+  margin-top: 26px;
+}
+
+.contacts--border-dashed {
+  border-bottom: 2px dashed var(--white);
+}
+
+.contacts--align-end {
+  align-self: flex-end;
+}
+
+.modal-contacts-social-wrapper {
+  .contacts {
+    margin-bottom: 38px;
+  }
+}
+@media (max-width: 1000px) {
+  .contacts-caption {
+    margin-bottom: 12px;
+  }
+}

@@ -1,0 +1,25 @@
+.video {
+  background: url(/images/story/video-bg.jpg) center 100% / cover no-repeat;
+  padding: 9.9rem 0 7.8rem;
+  color: var(--white);
+  text-align: center;
+  .video-title {
+    color: var(--white);
+    margin-bottom: 18px;
+  }
+  .video-text {
+    margin-bottom: 82px;
+  }
+}
+.video-play-link {
+  cursor: pointer;
+  display: block;
+  width: 142px;
+  height: 142px;
+  background: url(/icons/Play.svg) center 100% / cover no-repeat;
+  margin: 0 auto;
+}
+.video-play-img {
+  width: 134px;
+  height: 134px;
+}

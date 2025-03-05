@@ -1,0 +1,101 @@
+.chief {
+  padding-top: 9.25rem;
+  background: var(--beige);
+}
+
+.chief-bottom {
+  background: var(--white);
+}
+
+.chief-text {
+  margin-top: 18px;
+}
+
+.chief-wrapper {
+  display: flex;
+  justify-content: space-between;
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  &::before {
+    top: -163px;
+    left: -99px;
+    width: 365px;
+    height: 372px;
+    background-image: url(/icons/Leaf1-chief.svg);
+    z-index: 1;
+  }
+  &::after {
+    bottom: 0px;
+    right: 15px;
+    width: 27%;
+    aspect-ratio: 1/1;
+    background-image: url(/icons/Leaf2-chief.svg);
+  }
+}
+
+.chief-img {
+  width: 57%;
+  z-index: 2;
+}
+
+.chief-content {
+  max-width: 649px;
+}
+
+.chief-feachers {
+  display: flex;
+  gap: 1.38rem;
+  padding: 8.62rem 0 7.91rem;
+  background: var(--white);
+}
+
+.chief-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 508px;
+  text-align: center;
+}
+
+.chief-card-title {
+  margin-bottom: 39px;
+  font-size: 2rem;
+}
+
+.chief-card-img {
+  max-width: 260px;
+  background: var(--beige);
+  border-radius: 50%;
+  padding: 30px;
+  margin-bottom: 39px;
+}
+
+@media (max-width: 1440px) {
+  .chief-card-img {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 700px) {
+  .chief-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 4rem;
+  }
+  .chief-img {
+    width: 100%;
+  }
+  .chief-title {
+    text-align: center;
+  }
+  .chief-feachers {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

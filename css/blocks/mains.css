@@ -1,0 +1,24 @@
+.mains {
+  padding: 82px 0 130px;
+  text-align: center;
+}
+
+.mains-title {
+  margin-bottom: 18px;
+}
+
+.mains-text {
+  margin-bottom: 129px;
+  color: var(--dark-grey);
+}
+
+.mains-wrapper {
+  display: flex;
+  gap: 6%;
+}
+
+.mains-img {
+  width: 49%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
