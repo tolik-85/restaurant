@@ -20,3 +20,11 @@ elTwoColumsBtn.addEventListener('click', function () {
   elSpanBredcrumbs.textContent = 'Blog Two Columns'
   elHeroTitle.textContent = 'Blogs - Two Columns' //
 })
+
+// const smallDevice = window.matchMedia('(min-width: 800px)')
+
+// smallDevice.addEventListener(handleDeviceChange)
+
+// function handleDeviceChange(e) {
+//   if (e.matches) elTwoColumsBtn.click()
+// }

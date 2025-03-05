@@ -191,7 +191,7 @@
 }
 .blog-page {
   .hero {
-    background: url(../images/blog-page/hero-bg.jpg) no-repeat 100% / cover;
+    background: url(../../images/blog-page/hero-bg.jpg) no-repeat 100% / cover;
     text-align: center;
     overflow: hidden;
   }

@@ -13,3 +13,8 @@
     margin-top: -2px;
   }
 }
+@media (max-width: 800px) {
+  .colums-toggle {
+    display: none;
+  }
+}

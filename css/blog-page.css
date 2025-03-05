@@ -1,0 +1,18 @@
+@import url(./bootstrap-reboot.css);
+@import url(./vars.css);
+@import url(./container.css);
+@import url(./blocks/header.css);
+@import url(./blocks/burger.css);
+@import url(./blocks/buttons.css);
+@import url(./blocks/footer.css);
+@import url(./blocks/contacts.css);
+@import url(./blocks/social.css);
+@import url(./icomoon.css);
+@import url(./blocks/hero.css);
+@import url(./blocks/modal-menu.css);
+
+@import url(./blocks/breadcrumbs.css);
+@import url(./blocks/posts.css);
+
+@import url(./blocks/blog-item.css);
+@import url(./blocks/colums-toggle.css);
