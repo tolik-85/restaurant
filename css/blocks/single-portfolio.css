@@ -130,6 +130,9 @@
   .content-second {
     margin: 4.5rem 0 4.2rem;
   }
+  .content-second-img {
+    width: 100%;
+  }
   .content-third {
     gap: 2rem;
   }
