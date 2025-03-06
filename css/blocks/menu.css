@@ -60,7 +60,7 @@
   background: none;
 }
 .menu--pastries {
-  background: url(./icons/pastries-bg.svg) center top / 20% no-repeat;
+  background: url(../../icons/pastries-bg.svg) center top / 20% no-repeat;
 }
 
 @media (max-width: 1000px) {
