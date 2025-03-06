@@ -68,7 +68,7 @@
   width: 36px;
   height: 36px;
   margin: 10px;
-  background: url(../icons/Icon_dottes.svg) no-repeat 100% / cover;
+  background: url(../../icons/Icon_dottes.svg) no-repeat 100% / cover;
 }
 
 .nav-guides-caption {
@@ -96,14 +96,14 @@
 .nav-guides-arrow--prev {
   &::before {
     left: 20%;
-    background: url(../icons/Icon_arrow-left.svg) no-repeat 100% / cover;
+    background: url(../../icons/Icon_arrow-left.svg) no-repeat 100% / cover;
   }
 }
 
 .nav-guides-arrow--next {
   &::before {
     right: 20%;
-    background: url(../icons/Icon_arrow-right.svg) no-repeat 100% / cover;
+    background: url(../../icons/Icon_arrow-right.svg) no-repeat 100% / cover;
   }
 }
 
