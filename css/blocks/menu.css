@@ -55,6 +55,10 @@
     display: none;
   }
 }
+.menu--starters,
+.menu--mains {
+  background: none;
+}
 .menu--pastries {
   background: url(./icons/pastries-bg.svg) center top / 20% no-repeat;
 }
