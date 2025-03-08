@@ -67,10 +67,10 @@
   color: var(--white);
 }
 .post-guide--prev {
-  background: url(../../images/single-post/prev-post.jpg) center 100% / cover;
+  background: url(../../images/single-post/prev-post.avif) center 100% / cover;
 }
 .post-guide--next {
-  background: url(../../images/single-post/next-post.jpg) center 100% / cover;
+  background: url(../../images/single-post/next-post.avif) center 100% / cover;
 }
 .post-guide-arrow {
   font-size: 0.83rem;
